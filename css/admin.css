@@ -1,0 +1,22 @@
+﻿.cpis-property-container{float:left;}
+.cpis-comment{color:#CCC;font-style:italic;}
+.cpis-file-list-container{border:1px solid #c3c4c7; padding:10px;}
+.cpis-file-list{border:0; width:100%;}
+.cpis-file-list tr:first-child td{font-weight:bold;}
+.cpis-short-field{width: 100px;}
+.cpis-section-title,
+.cpis-chart-title{ font-size: 18px; font-weight: bold;margin:10px 0;}
+.cpis-chart-legend{float:left; padding:10px; background:#FFFFFF; border: 1px solid #dfdfdf; }
+.cpis-legend-color{height:16px;width:20px;float:left;margin-right:10px;}
+.cpis-legend-text{float:left;clear:right;}
+.cpis-paypal-data{ border: 1px solid #EEEEEE; padding: 0 10px 10px 10px; margin: 10px 0; }
+#cpis_layout_thumbnail img{ margin-top: 10px; }
+
+.form-table.product-data div input,
+.form-table.product-data div select { margin-top:5px; }
+
+@media screen AND (min-width:710px){
+.form-table.product-data div:nth-child(2) input[type="text"] { width: 30%; }
+.form-table.product-data div:nth-child(2) input[type="button"] { width: 25%; }
+.form-table.product-data select:first-child { width: 40%; }
+}

@@ -1,0 +1,68 @@
+.cpis-image-store{
+width: 100%;
+min-width:0;
+}
+
+/** FILTERING BOX **/
+.cpis-image-store-left{
+background: rgba( 0, 0, 0, 0.7 );
+color:#FFF;
+position:relative;
+width:calc(100% - 40px );
+max-width:100%;
+padding:20px;
+margin: 0 0 20px 0;
+}
+
+.cpis-image-store-left .cpis-column-title:not(:first-child),
+.cpis-image-store-left .cpis-filter:not(:nth-child(2)){
+display:none;
+}
+
+.cpis-image-store-left .search-btn,
+.cpis-image-store-left .advanced-btn{
+background:url(btn_bg.png);
+width:calc( 10% - 2px );
+float:right;
+cursor:pointer;
+}
+
+.cpis-image-store-left .search-btn{
+border-right:1px solid #A8135A;
+}
+.cpis-image-store-left .advanced-btn{
+border-left:1px solid #E83197;
+}
+.cpis-image-store-left .advanced-btn-active{
+background:url(active_btn_bg.png);
+}
+
+.cpis-image-store-left .btn-icon{width:100%;height:100%;}
+.cpis-image-store-left .search-btn .btn-icon{ background:url(search_icon.png) center center no-repeat; }
+.cpis-image-store-left .advanced-btn .btn-icon{ background:url(gear_icon.png) center center no-repeat; }
+
+/** RIGHT COLUMN **/
+.cpis-image-store-right{ width: 100%; margin: 0; }
+
+.cpis-image-store-pagination .page-link {
+background: #b11a67;
+border: 1px solid #b11a67;
+color:#FFF;
+}
+
+.cpis-image-store-pagination .page-selected {
+border: 1px solid #b11a67;
+color: #b11a67;
+}
+
+/** BUTTONS AND ITEMS ELEMENTS **/
+.cpis-shopping-cart-table .button,
+.cpis-paypal-button{
+background: url(btn_bg.png) !important;
+text-shadow: 1px 1px #b11a67;
+border:0;
+margin-bottom: 5px;
+}
+.cpis-store-total,
+.cpis-image-price{ color: #b11a67; }
+
